@@ -1,0 +1,58 @@
+* {
+  background-color: #dec7fb;
+}
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #ef5d30;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #000;
+  font-weight: lighter;
+}
+header {
+  font-size: 75px;
+  font-weight: lighter;
+  padding: 5px;
+  color: #4747ea;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  font-variant: normal;
+  margin-top: 2px;
+}
+
+li {
+  font-family: "Times New Roman", Times, serif;
+}
+
+li:hover {
+  font-weight: bolder;
+}
+
+.leftdiv {
+  width: 50vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #dec7fb;
+  text-align: left;
+  border: #000;
+  flex-direction: column;
+}
+.pictures {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  border: #000;
+}
+
+.mammadiv {
+  /* display: flex; */
+  /* flex-direction: row; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.press {
+  font-family: "Times New Roman", Times, serif;
+  color: #ef5d30;
+}
