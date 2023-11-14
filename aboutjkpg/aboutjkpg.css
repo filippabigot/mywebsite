@@ -1,0 +1,104 @@
+* {
+  background-color: #dec7fb;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #ef5d30;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #000;
+  font-weight: lighter;
+}
+.headlines {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: #000;
+}
+header {
+  font-size: 75px;
+  font-weight: lighter;
+  padding: 5px;
+  color: #4747ea;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  font-variant: normal;
+  margin-top: 2px;
+}
+
+li {
+  font-family: "Times New Roman", Times, serif;
+}
+
+li:hover {
+  font-weight: bolder;
+}
+
+.leftdiv {
+  width: 50vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #dec7fb;
+  text-align: left;
+  border: #000;
+  flex-direction: column;
+}
+.leftdiv,
+.pictures {
+  width: 100%;
+}
+
+.pictures {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  border: #000;
+}
+
+.mammadiv {
+  /* display: flex; */
+  /* flex-direction: row; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  li,
+  li:hover {
+    font-size: 14px;
+  }
+
+  .leftdiv,
+  .pictures {
+    padding: 10px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main1 {
+  color: #ef5d30;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.main2 {
+  color: #4747ea;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
