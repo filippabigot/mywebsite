@@ -1,37 +1,41 @@
 * {
-  background-color: #dec7fb;
+  background-color: #f7f2eb;
   box-sizing: border-box;
 }
 
 body {
-  max-width: 1200px;
-  margin: 0 auto;
+  /*max-width: 1200px;*/
+  width: 100vw;
+  margin: 0;
 }
 
 h1 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: #ef5d30;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  color: #334eac;
 }
 p {
   font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
+  font-size: 1rem;
   color: #000;
   font-weight: lighter;
 }
 .headlines {
-  font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
-  color: #000;
-}
-header {
-  font-size: 75px;
   font-weight: lighter;
-  padding: 5px;
-  color: #4747ea;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #334eac;
+}
+header h1 {
+  font-size: 5rem;
+  font-weight: lighter;
+  color: #081f5c;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
   font-variant: normal;
-  margin-top: 2px;
+  margin-top: 0.13rem;
 }
 
 li {
@@ -45,7 +49,7 @@ li:hover {
 .leftdiv {
   width: 50vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #dec7fb;
+  background-color: #f7f2eb;
   text-align: left;
   border: #000;
   flex-direction: column;
@@ -63,25 +67,24 @@ li:hover {
 }
 
 .mammadiv {
-  /* display: flex; */
-  /* flex-direction: row; */
+  padding: 0.625rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5rem) {
   h1 {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   li,
   li:hover {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .leftdiv,
   .pictures {
-    padding: 10px;
+    padding: 0.625rem;
   }
 }
 
@@ -91,14 +94,20 @@ a {
 }
 
 .main1 {
-  color: #ef5d30;
-  font-size: 25px;
-  font-weight: bold;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #7096d1;
+  font-size: 1.563rem;
+  font-weight: normal;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .main2 {
-  color: #4747ea;
-  font-size: 25px;
-  font-weight: bold;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #bad6eb;
+  font-size: 1.563rem;
+  font-weight: normal;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.jkpgheader {
+  width: 100vw;
 }
