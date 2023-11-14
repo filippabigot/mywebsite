@@ -1,6 +1,13 @@
 * {
   background-color: #dec7fb;
+  box-sizing: border-box;
 }
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: #ef5d30;
@@ -38,6 +45,11 @@ li:hover {
   border: #000;
   flex-direction: column;
 }
+.leftdiv,
+.pictures {
+  width: 100%;
+}
+
 .pictures {
   width: 50vw;
   display: flex;
@@ -55,4 +67,20 @@ li:hover {
 .press {
   font-family: "Times New Roman", Times, serif;
   color: #ef5d30;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  li,
+  li:hover {
+    font-size: 14px;
+  }
+
+  .leftdiv,
+  .pictures {
+    padding: 10px;
+  }
 }
