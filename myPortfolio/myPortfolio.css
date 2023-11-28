@@ -90,11 +90,11 @@ a:hover {
   grid-row-start: 1;
   grid-row-end: 3;
 } */
-/* .pic {
-  display: flex;
-  flex-direction: row;
+.pic {
+  display: grid;
+
   width: 100vw;
-} */
+}
 .grid-column-span-2 {
   grid-column: span 2;
 }
